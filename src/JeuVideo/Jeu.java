@@ -42,19 +42,26 @@ public class Jeu {
         System.out.println("Vous avez choisi l'arme :" + arme);
 
         // niv 1 // pdv 200
-        Hero dude = new Hero("Geralt", (short) 1, arme, (short) 200, 0);
-        while(dude.getPdv() != 0 && Boss[0].getPdv() != 0){
-            dude.attaquer(Boss[0]);
-            if (Boss[0].getPdv() != 0){
-                Boss[0].attaquer(dude);
+        public static void beatdown(Hero dude, Personnage Boss)
+        while(true) {
+            while (dude.getPdv() != 0 && Boss[0].getPdv() != 0) {
+                dude.attaquer(Boss[0]);
+                if (Boss[0].getPdv() != 0) {
+                    Boss[0].attaquer(dude);
+                }
+            }
+            System.out.println(dude + " vs " + Boss);
+            System.out.println("dude");
+            System.out.println(Boss[0]);
+            if (dude.getPdv() == 0) {
+                dude.setXp(Boss[0].getNiveau() * 2);
+            } else {
+                dude.setXp(Boss[0].getNiveau() * 8);
+            }
+            Boss[0].setPdv((short) (10 * Boss[0].getNiveau()));
+            dude.setPdv((short) (180 + 20 * dude.getNiveau()));
+
         }
-    }
-    System.out.println("dude");
-    System.out.println(Boss[0]);
-    Boss[0].setPdv((short)(10* Boss[0].getNiveau()));
-    dude.setXp(dude.getXp() + 50);
-
-
-}
+   }
 
 }
