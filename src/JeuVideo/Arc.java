@@ -5,4 +5,5 @@ public class Arc extends Arme{
         super(dpc);
         this.nom = "Arc";
     }
+
 }
