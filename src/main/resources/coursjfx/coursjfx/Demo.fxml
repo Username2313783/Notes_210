@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="boite" alignment="CENTER" prefHeight="214.0" prefWidth="246.0" spacing="20.0" stylesheets="@Demo.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursjfx.coursjfx.demoController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <ButtonBar layoutX="3.0" layoutY="7.0" prefHeight="115.0" prefWidth="200.0" />
+
+          <Label fx:id="welcomeText" layoutX="87.0" layoutY="74.0" text="Eclipse" />
+       <Button layoutX="85.0" layoutY="-4.0" minWidth="59.0" mnemonicParsing="false" onAction="#textRouge" prefHeight="19.0" stylesheets="@Demo.css" text="Rouge" />
+      </children></AnchorPane>
+    <Button onAction="#toggleAffichage" text="Affiche" />
+</VBox>
