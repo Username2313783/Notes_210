@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@Trivia.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursjfx.coursjfx.TriviaController">
+   <children>
+      <Label prefHeight="75.0" prefWidth="600.0" styleClass="title" stylesheets="@Trivia.css" text="Question" />
+      <Button fx:id="button1" layoutX="65.0" layoutY="148.0" mnemonicParsing="false" stylesheets="@Trivia.css" text="A" />
+      <Button fx:id="next" layoutX="244.0" layoutY="320.0" mnemonicParsing="false" text="Next" />
+      <Button fx:id="button2" layoutX="408.0" layoutY="151.0" mnemonicParsing="false" text="B" />
+      <Button fx:id="button3" layoutX="64.0" layoutY="241.0" mnemonicParsing="false" text="C" />
+      <Button fx:id="button4" layoutX="408.0" layoutY="246.0" mnemonicParsing="false" text="D" />
+      <Label layoutX="253.0" layoutY="71.0" prefHeight="75.0" prefWidth="99.0" styleClass="question" stylesheets="@Trivia.css" text="Label" />
+   </children>
+</AnchorPane>

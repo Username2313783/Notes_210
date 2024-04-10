@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26920f77-8a65-421f-9389-47ee019083c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/Calculatrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/CalculatriceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/demoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/coursjfx/coursjfx/Calculatrice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/coursjfx/coursjfx/Demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/coursjfx/coursjfx/Demo.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/coursjfx/coursjfx/calculatrice.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/coursjfx/coursjfx/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/Trivia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coursjfx/coursjfx/TriviaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/coursjfx/coursjfx/Trivia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +19,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ephndOWaXQUK5vQaFh6HHRhJmf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,25 +48,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/2313783/IdeaProjects/coursJFX/src/main/resources/coursjfx/coursjfx",
+    "last_opened_file_path": "C:/Users/2313783/Notes_210/src/main/resources/coursjfx/coursjfx",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\2313783\Notes_210\src\main\resources\coursjfx\coursjfx" />
       <recent name="C:\Users\2313783\IdeaProjects\coursJFX\src\main\resources\coursjfx\coursjfx" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="coursjfx.coursjfx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.calculatrice">
+  <component name="RunManager" selected="Application.Trivia">
+    <configuration name="Trivia" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="coursjfx.coursjfx.Trivia" />
+      <module name="coursJFX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="base" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="coursjfx.coursjfx.HelloApplication" />
       <module name="coursJFX" />
@@ -110,6 +100,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Trivia" />
       <item itemvalue="Application.base" />
       <item itemvalue="Application.demo" />
       <item itemvalue="Application.calculatrice" />
@@ -124,6 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712607597792</updated>
       <workItem from="1712607598867" duration="5672000" />
+      <workItem from="1712759227608" duration="4782000" />
     </task>
     <servers />
   </component>
